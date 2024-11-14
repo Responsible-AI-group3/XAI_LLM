@@ -11,7 +11,7 @@ def init_model(model_path="./models/openchat-3.5-0106.Q4_K_M.gguf"):
         n_ctx=150,  # The max sequence length to use - note that longer sequence lengths require much more resources
         n_threads=8,  # The number of CPU threads to use, tailor to your system and the resulting performance
         n_gpu_layers=35,  # The number of layers to offload to GPU, if you have GPU acceleration available
-        verbose=False,  # Whether to print out detailed logs
+        verbose=True,  # Whether to print out detailed logs
     )
 
 
